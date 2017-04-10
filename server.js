@@ -29,7 +29,7 @@ app.use(express.static("public"));
 
 
 //-----Define local MongoDb URI ------------- 
-var databaseUri = "mongodb://localhost/nytimes";
+var databaseUri = "mongodb://<dbuser>:<dbpassword>@ds157980.mlab.com:57980/heroku_zt5l0d0b";
 
 
 if (process.env.MONGODB_URI) {
